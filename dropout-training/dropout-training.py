@@ -9,10 +9,10 @@ def dropout(x, p=0.5, rng=None):
     x = np.array(x)
     if rng is None:
         rng=np.random.default_rng()
-    mask= rng.random(x.shape ) >= p
-    drop= x*mask 
-    dropout= mask/(1-p)
-    result = drop/(1-p)
+    mask= rng.random(x.shape ) >= p   #keep the remaining percentage
+    drop= x*mask # mutiple remaing  pertentage with x = percentage of x input  
+    dropout= mask/(1-p) 
+    result = drop/(1-p) # You lose some fearture, and have to make up for it with the remaining features
     tuple=( result, dropout)
     return  tuple
     pass
