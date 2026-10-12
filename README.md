@@ -51,6 +51,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Basic Probability Rules | Compute union, complement, and exclusive-event probabilities from two event probabilities and their intersection. | https://www.tensortonic.com/problems/probstat-basic-probability-rules |
 | Bayes' Theorem | Compute a posterior probability from a prior, likelihood, and false-positive rate using Bayes' theorem. | https://www.tensortonic.com/problems/probstat-bayes-theorem |
 | Conditional Probability | Compute both directional conditional probabilities from two event probabilities and their intersection. | https://www.tensortonic.com/problems/probstat-conditional-probability |
+| Independence Testing | Determine whether two events are independent from their marginal probabilities and intersection probability. | https://www.tensortonic.com/problems/probstat-independence-testing |
 | Mean, Median, Mode | Compute mean, median, and a deterministically selected mode for a one-dimensional numeric sample. | https://www.tensortonic.com/problems/probstat-mean-median-mode |
 | Sample Variance & Standard Deviation | Compute unbiased sample variance and standard deviation with Bessel correction for a numeric sample. | https://www.tensortonic.com/problems/probstat-sample-var-std |
 | RMSProp Optimizer (Single Update Step) | Implement one RMSProp update in NumPy using an exponential squared-gradient average and adaptive scaling. | https://www.tensortonic.com/problems/rmsprop-optimizer |
